@@ -1,0 +1,19 @@
+﻿version: '3.7'
+services:
+  web:
+    build: .
+    ports:
+      - 5001:80
+    depends_on:
+      - mongodb_container
+  mongodb_container:
+    image: mongo:latest
+    environment:
+      MONGO_INITDB_DATABASE: MessagingServiceDb
+    ports:
+      - 27017:27017
+    volumes:
+      - mongodb_data_container:/data/db
+
+volumes:
+  mongodb_data_container:

@@ -1,0 +1,1646 @@
+{
+  "MessagingService.dll": {
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Helpers\\Extensions.cs": {
+      "MessagingService.Extensions": {
+        "System.Boolean MessagingService.Extensions::IsNullOrEmpty(System.String)": {
+          "Lines": {
+            "12": 11,
+            "13": 11,
+            "14": 11
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Extensions::ToHash(System.String)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        },
+        "System.Byte[] MessagingService.Extensions::ToByteArray(System.String)": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Extensions::JoinWith(System.Collections.Generic.IEnumerable`1<System.String>,System.String)": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Extensions::Pluralize(System.String)": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 14,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Program.cs": {
+      "MessagingService.Program": {
+        "System.Void MessagingService.Program::Main(System.String[])": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.Extensions.Hosting.IHostBuilder MessagingService.Program::CreateHostBuilder(System.String[])": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Startup.cs": {
+      "MessagingService.Startup": {
+        "Microsoft.Extensions.Configuration.IConfiguration MessagingService.Startup::get_Configuration()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.Void MessagingService.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        },
+        "System.Void MessagingService.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 9,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MessagingService.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\MessageService.cs": {
+      "MessagingService.Services.MessageService": {
+        "System.Void MessagingService.Services.MessageService::.ctor(MessagingService.Services.IUserService,MessagingService.Core.IRepository`1<MessagingService.Entities.ConversationModel>,AutoMapper.IMapper)": {
+          "Lines": {
+            "22": 7,
+            "23": 7,
+            "24": 7,
+            "25": 7,
+            "26": 7,
+            "27": 7,
+            "28": 7
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.MessageService/<SendMessage>d__4": {
+        "System.Void MessagingService.Services.MessageService/<SendMessage>d__4::MoveNext()": {
+          "Lines": {
+            "31": 5,
+            "32": 5,
+            "33": 2,
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "40": 3,
+            "42": 3,
+            "43": 3,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 2,
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "66": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 2
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 68,
+              "EndOffset": 70,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 32,
+              "Offset": 68,
+              "EndOffset": 88,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 34,
+              "Offset": 111,
+              "EndOffset": 113,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 34,
+              "Offset": 111,
+              "EndOffset": 120,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 32,
+              "Offset": 91,
+              "EndOffset": 142,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 43,
+              "Offset": 308,
+              "EndOffset": 310,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 43,
+              "Offset": 308,
+              "EndOffset": 355,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 56,
+              "Offset": 583,
+              "EndOffset": 588,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 56,
+              "Offset": 583,
+              "EndOffset": 823,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MessagingService.Services.MessageService/<GetMessages>d__5": {
+        "System.Void MessagingService.Services.MessageService/<GetMessages>d__5::MoveNext()": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0
+          },
+          "Branches": [
+            {
+              "Line": 77,
+              "Offset": 197,
+              "EndOffset": 199,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 197,
+              "EndOffset": 204,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Services.MessageService/<GetConversations>d__6": {
+        "System.Void MessagingService.Services.MessageService/<GetConversations>d__6::MoveNext()": {
+          "Lines": {
+            "88": 1,
+            "89": 1,
+            "91": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "99": 1,
+            "100": 1,
+            "101": 1
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.MessageService/<GetConversation>d__7": {
+        "System.Void MessagingService.Services.MessageService/<GetConversation>d__7::MoveNext()": {
+          "Lines": {
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "110": 1
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.MessageService/<GetConversation>d__8": {
+        "System.Void MessagingService.Services.MessageService/<GetConversation>d__8::MoveNext()": {
+          "Lines": {
+            "113": 2,
+            "114": 2,
+            "115": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\UserService.cs": {
+      "MessagingService.Services.UserService": {
+        "System.String MessagingService.Services.UserService::GetUserName()": {
+          "Lines": {
+            "55": 2,
+            "56": 2,
+            "57": 2
+          },
+          "Branches": []
+        },
+        "MessagingService.Models.Users.User MessagingService.Services.UserService::GetCurrentUser()": {
+          "Lines": {
+            "60": 1,
+            "61": 1,
+            "62": 1
+          },
+          "Branches": []
+        },
+        "System.Void MessagingService.Services.UserService::.ctor(MessagingService.Core.IRepository`1<MessagingService.Entities.UserModel>,AutoMapper.IMapper,MessagingService.Core.ISessionManager)": {
+          "Lines": {
+            "17": 9,
+            "18": 9,
+            "19": 9,
+            "20": 9,
+            "21": 9,
+            "22": 9,
+            "23": 9,
+            "24": 9
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.UserService/<Register>d__4": {
+        "System.Void MessagingService.Services.UserService/<Register>d__4::MoveNext()": {
+          "Lines": {
+            "27": 2,
+            "28": 2,
+            "30": 2,
+            "31": 2,
+            "32": 1,
+            "33": 1,
+            "36": 1,
+            "37": 1
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 31,
+              "Offset": 191,
+              "EndOffset": 205,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "MessagingService.Services.UserService/<IsUserExists>d__5": {
+        "System.Void MessagingService.Services.UserService/<IsUserExists>d__5::MoveNext()": {
+          "Lines": {
+            "39": 4,
+            "40": 4,
+            "41": 4,
+            "42": 4
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.UserService/<GetUser>d__6": {
+        "System.Void MessagingService.Services.UserService/<GetUser>d__6::MoveNext()": {
+          "Lines": {
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "47": 2
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.UserService/<GetUser>d__7": {
+        "System.Void MessagingService.Services.UserService/<GetUser>d__7::MoveNext()": {
+          "Lines": {
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.UserService/<BlockUser>d__10": {
+        "System.Void MessagingService.Services.UserService/<BlockUser>d__10::MoveNext()": {
+          "Lines": {
+            "65": 1,
+            "66": 1,
+            "68": 1,
+            "69": 1,
+            "70": 1,
+            "71": 1
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.UserService/<UnblockUser>d__11": {
+        "System.Void MessagingService.Services.UserService/<UnblockUser>d__11::MoveNext()": {
+          "Lines": {
+            "73": 1,
+            "74": 1,
+            "75": 1,
+            "76": 1,
+            "77": 1,
+            "78": 1
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Services.UserService/<IsUserBlocked>d__12": {
+        "System.Void MessagingService.Services.UserService/<IsUserBlocked>d__12::MoveNext()": {
+          "Lines": {
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0
+          },
+          "Branches": [
+            {
+              "Line": 84,
+              "Offset": 298,
+              "EndOffset": 300,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 84,
+              "Offset": 298,
+              "EndOffset": 324,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\Dtos\\Conversation.cs": {
+      "MessagingService.Services.Dtos.Conversation": {
+        "System.Collections.Generic.List`1<System.String> MessagingService.Services.Dtos.Conversation::get_Users()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MessagingService.Services.Dtos.Message> MessagingService.Services.Dtos.Conversation::get_Messages()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MessagingService.Services.Dtos.Conversation::get_LastMessageDateTime()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\Dtos\\GetMessagesInput.cs": {
+      "MessagingService.Services.Dtos.GetMessagesInput": {
+        "System.String MessagingService.Services.Dtos.GetMessagesInput::get_ReceiptUserName()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MessagingService.Services.Dtos.GetMessagesInput::get_Skip()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 MessagingService.Services.Dtos.GetMessagesInput::get_Take()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\Dtos\\Message.cs": {
+      "MessagingService.Services.Dtos.Message": {
+        "System.String MessagingService.Services.Dtos.Message::get_SenderUserName()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.Message::get_ReceiverUserName()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.Message::get_MessageText()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MessagingService.Services.Dtos.Message::get_CreateAt()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\Dtos\\RegisterInput.cs": {
+      "MessagingService.Services.Dtos.RegisterInput": {
+        "System.String MessagingService.Services.Dtos.RegisterInput::get_UserName()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.RegisterInput::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.RegisterInput::get_Surname()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.RegisterInput::get_Email()": {
+          "Lines": {
+            "15": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.RegisterInput::get_Password()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Services\\Dtos\\SendMessageInput.cs": {
+      "MessagingService.Services.Dtos.SendMessageInput": {
+        "System.String MessagingService.Services.Dtos.SendMessageInput::get_ReceiverUserName()": {
+          "Lines": {
+            "8": 20
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Services.Dtos.SendMessageInput::get_Message()": {
+          "Lines": {
+            "10": 16
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Models\\Users\\AuthenticateInput.cs": {
+      "MessagingService.Models.Users.AuthenticateInput": {
+        "System.String MessagingService.Models.Users.AuthenticateInput::get_UserName()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Models.Users.AuthenticateInput::get_HashedPassword()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Models\\Users\\AuthenticateResponse.cs": {
+      "MessagingService.Models.Users.AuthenticateResponse": {
+        "System.String MessagingService.Models.Users.AuthenticateResponse::get_Token()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MessagingService.Models.Users.AuthenticateResponse::get_Expiration()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Models\\Users\\User.cs": {
+      "MessagingService.Models.Users.User": {
+        "System.String MessagingService.Models.Users.User::get_UserName()": {
+          "Lines": {
+            "5": 15
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Models.Users.User::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Models.Users.User::get_Surname()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Models.Users.User::get_Email()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Helpers\\AppSettings.cs": {
+      "MessagingService.Helpers.AppSettings": {
+        "MessagingService.Helpers.ConnectionStrings MessagingService.Helpers.AppSettings::get_ConnectionStrings()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "MessagingService.Helpers.JwtSettings MessagingService.Helpers.AppSettings::get_Jwt()": {
+          "Lines": {
+            "8": 9
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Helpers.ConnectionStrings": {
+        "System.String MessagingService.Helpers.ConnectionStrings::get_Default()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Helpers.ConnectionStrings::get_DatabaseName()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Helpers.JwtSettings": {
+        "System.String MessagingService.Helpers.JwtSettings::get_ValidAudience()": {
+          "Lines": {
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Helpers.JwtSettings::get_ValidIssuer()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Helpers.JwtSettings::get_Secret()": {
+          "Lines": {
+            "21": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Helpers\\UserFriendlyException.cs": {
+      "MessagingService.Helpers.UserFriendlyException": {
+        "System.Void MessagingService.Helpers.UserFriendlyException::.ctor(System.String)": {
+          "Lines": {
+            "7": 2,
+            "8": 2,
+            "9": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Entities\\ConversationModel.cs": {
+      "MessagingService.Entities.ConversationModel": {
+        "System.Collections.Generic.List`1<System.String> MessagingService.Entities.ConversationModel::get_Users()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<MessagingService.Entities.MessageModel> MessagingService.Entities.ConversationModel::get_Messages()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime MessagingService.Entities.ConversationModel::get_LastMessageDateTime()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Entities\\MessageModel.cs": {
+      "MessagingService.Entities.MessageModel": {
+        "System.String MessagingService.Entities.MessageModel::get_SenderUserName()": {
+          "Lines": {
+            "14": 4
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Entities.MessageModel::get_ReceiverUserName()": {
+          "Lines": {
+            "15": 4
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Entities.MessageModel::get_MessageText()": {
+          "Lines": {
+            "16": 4
+          },
+          "Branches": []
+        },
+        "System.DateTime MessagingService.Entities.MessageModel::get_CreateAt()": {
+          "Lines": {
+            "19": 4
+          },
+          "Branches": []
+        },
+        "System.Void MessagingService.Entities.MessageModel::.ctor()": {
+          "Lines": {
+            "10": 2,
+            "11": 2,
+            "12": 2,
+            "13": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Entities\\MongoBaseModel.cs": {
+      "MessagingService.Entities.MongoBaseModel": {
+        "MongoDB.Bson.ObjectId MessagingService.Entities.MongoBaseModel::get_Id()": {
+          "Lines": {
+            "7": 5
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Entities\\UserModel.cs": {
+      "MessagingService.Entities.UserModel": {
+        "System.String MessagingService.Entities.UserModel::get_UserName()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Entities.UserModel::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Entities.UserModel::get_Surname()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Entities.UserModel::get_Email()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Entities.UserModel::get_Password()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> MessagingService.Entities.UserModel::get_BlockedUserNames()": {
+          "Lines": {
+            "13": 19
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\AuthorizeAttribute.cs": {
+      "MessagingService.Core.AuthorizeAttribute": {
+        "System.Void MessagingService.Core.AuthorizeAttribute::OnAuthorization(Microsoft.AspNetCore.Mvc.Filters.AuthorizationFilterContext)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": [
+            {
+              "Line": 15,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 34,
+              "EndOffset": 77,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\ErrorHandlerMiddleware.cs": {
+      "MessagingService.Core.ErrorHandlerMiddleware": {
+        "System.Void MessagingService.Core.ErrorHandlerMiddleware::.ctor(Microsoft.Extensions.Logging.ILogger`1<MessagingService.Core.ErrorHandlerMiddleware>)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        },
+        "System.Void MessagingService.Core.ErrorHandlerMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate)": {
+          "Lines": {
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Core.ErrorHandlerMiddleware/<Invoke>d__4": {
+        "System.Void MessagingService.Core.ErrorHandlerMiddleware/<Invoke>d__4::MoveNext()": {
+          "Lines": {
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0,
+            "41": 0,
+            "45": 0,
+            "46": 0,
+            "49": 0,
+            "50": 0,
+            "53": 0,
+            "54": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 316,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 316,
+              "EndOffset": 347,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 341,
+              "EndOffset": 368,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 341,
+              "EndOffset": 387,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 435,
+              "EndOffset": 437,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 435,
+              "EndOffset": 441,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\JwtManager.cs": {
+      "MessagingService.Core.JwtManager": {
+        "System.String MessagingService.Core.JwtManager::GenerateJwtToken(System.String,System.DateTime)": {
+          "Lines": {
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "36": 3,
+            "37": 3,
+            "38": 3,
+            "39": 3,
+            "40": 3
+          },
+          "Branches": []
+        },
+        "System.String MessagingService.Core.JwtManager::ValidateAndGetUserName(System.String)": {
+          "Lines": {
+            "43": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "48": 3,
+            "49": 3,
+            "50": 3,
+            "51": 3,
+            "52": 3,
+            "53": 3,
+            "55": 2,
+            "56": 4,
+            "57": 2,
+            "58": 2
+          },
+          "Branches": [
+            {
+              "Line": 57,
+              "Offset": 146,
+              "EndOffset": 148,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 146,
+              "EndOffset": 151,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        },
+        "System.Void MessagingService.Core.JwtManager::.ctor(Microsoft.Extensions.Options.IOptions`1<MessagingService.Helpers.AppSettings>)": {
+          "Lines": {
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\JwtMiddleware.cs": {
+      "MessagingService.Core.JwtMiddleware": {
+        "System.Void MessagingService.Core.JwtMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,MessagingService.Core.IJwtManager)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Core.JwtMiddleware/<Invoke>d__4": {
+        "System.Void MessagingService.Core.JwtMiddleware/<Invoke>d__4::MoveNext()": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 67,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 105,
+              "EndOffset": 107,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 105,
+              "EndOffset": 226,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Core.JwtMiddleware/<AttachUserToContext>d__5": {
+        "System.Void MessagingService.Core.JwtMiddleware/<AttachUserToContext>d__5::MoveNext()": {
+          "Lines": {
+            "39": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\Repository.cs": {
+      "MessagingService.Core.Repository`1": {
+        "System.Void MessagingService.Core.Repository`1::.ctor(Microsoft.Extensions.Options.IOptions`1<MessagingService.Helpers.AppSettings>)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Core.Repository`1/<Get>d__2": {
+        "System.Void MessagingService.Core.Repository`1/<Get>d__2::MoveNext()": {
+          "Lines": {
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Core.Repository`1/<GetAll>d__3": {
+        "System.Void MessagingService.Core.Repository`1/<GetAll>d__3::MoveNext()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 41,
+              "Offset": 37,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 37,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Core.Repository`1/<Create>d__4": {
+        "System.Void MessagingService.Core.Repository`1/<Create>d__4::MoveNext()": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Core.Repository`1/<Update>d__5": {
+        "System.Void MessagingService.Core.Repository`1/<Update>d__5::MoveNext()": {
+          "Lines": {
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\SessionManager.cs": {
+      "MessagingService.Core.SessionManager": {
+        "System.String MessagingService.Core.SessionManager::GetCurrentUserName()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 14,
+              "EndOffset": 28,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "MessagingService.Models.Users.User MessagingService.Core.SessionManager::GetCurrentUser()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 8,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void MessagingService.Core.SessionManager::.ctor(Microsoft.AspNetCore.Http.IHttpContextAccessor)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\Profiles\\MessageProfile.cs": {
+      "MessagingService.Core.Profiles.MessageProfile": {
+        "System.Void MessagingService.Core.Profiles.MessageProfile::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Core\\Profiles\\UserProfile.cs": {
+      "MessagingService.Core.Profiles.UserProfile": {
+        "System.Void MessagingService.Core.Profiles.UserProfile::.ctor()": {
+          "Lines": {
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Controllers\\HealthCheck.cs": {
+      "MessagingService.Controllers.HealthCheckController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult MessagingService.Controllers.HealthCheckController::Index()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Mvc.IActionResult MessagingService.Controllers.HealthCheckController::Post()": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Controllers\\MessagingController.cs": {
+      "MessagingService.Controllers.MessagingController": {
+        "System.Void MessagingService.Controllers.MessagingController::.ctor(MessagingService.Services.IMessageService,Microsoft.Extensions.Logging.ILogger`1<MessagingService.Controllers.MessagingController>)": {
+          "Lines": {
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Controllers.MessagingController/<Post>d__3": {
+        "System.Void MessagingService.Controllers.MessagingController/<Post>d__3::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 39,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Controllers.MessagingController/<Get>d__4": {
+        "System.Void MessagingService.Controllers.MessagingController/<Get>d__4::MoveNext()": {
+          "Lines": {
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 39,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Controllers.MessagingController/<Conversations>d__5": {
+        "System.Void MessagingService.Controllers.MessagingController/<Conversations>d__5::MoveNext()": {
+          "Lines": {
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Controllers\\UsersController.cs": {
+      "MessagingService.Controllers.UsersController": {
+        "System.Void MessagingService.Controllers.UsersController::.ctor(MessagingService.Services.IUserService,MessagingService.Core.IJwtManager)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "MessagingService.Controllers.UsersController/<Register>d__3": {
+        "System.Void MessagingService.Controllers.UsersController/<Register>d__3::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 50,
+              "EndOffset": 70,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 215,
+              "EndOffset": 217,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 215,
+              "EndOffset": 240,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Controllers.UsersController/<Authenticate>d__4": {
+        "System.Void MessagingService.Controllers.UsersController/<Authenticate>d__4::MoveNext()": {
+          "Lines": {
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 180,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Controllers.UsersController/<BlockUser>d__5": {
+        "System.Void MessagingService.Controllers.UsersController/<BlockUser>d__5::MoveNext()": {
+          "Lines": {
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 70,
+              "Offset": 36,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "MessagingService.Controllers.UsersController/<UnblockUser>d__6": {
+        "System.Void MessagingService.Controllers.UsersController/<UnblockUser>d__6::MoveNext()": {
+          "Lines": {
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0
+          },
+          "Branches": [
+            {
+              "Line": 83,
+              "Offset": 36,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 36,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Controllers\\Dtos\\BlockUserInput.cs": {
+      "MessagingService.Controllers.Dtos.BlockUserInput": {
+        "System.String MessagingService.Controllers.Dtos.BlockUserInput::get_BlockedUserName()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\mahmut.gundogdu\\source\\repos\\MessagingService\\MessagingService\\Controllers\\Dtos\\UnblockUserInput.cs": {
+      "MessagingService.Controllers.Dtos.UnblockUserInput": {
+        "System.String MessagingService.Controllers.Dtos.UnblockUserInput::get_UnblockedUserName()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
